@@ -8,8 +8,8 @@ def rev(n):
     return s
 
 n=int(input())
-k=rev(n)
-print("*",k)
+
+print("*",rev(n))
         
         
         
