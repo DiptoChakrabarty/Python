@@ -17,7 +17,7 @@ def half(l,n):
     for i in range(len(l)):
         if n==l[i]:
             count+=1
-    if count > n/2:
+    if count > len(l)/2:
         return True
     else:
         return False
